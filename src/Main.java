@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -16,8 +17,21 @@ public class Main {
 
         addSumOfElfToList(listOfNumbers);
         System.out.println(listOfElves);
-        System.out.println(Collections.max(listOfElves));
+        System.out.println("The elf with most calories have " + Collections.max(listOfElves));
 
+        System.out.println("The top three elves have " + addTopThree() + " calories");
+
+        System.out.println(listOfElves);
+
+    }
+
+    private static int addTopThree() {
+        listOfElves.sort(Comparator.reverseOrder());
+        int temp = 0;
+        for (int i = 0; i < 3; i++) {
+            temp = listOfElves.get(i) + temp;
+        }
+        return temp;
     }
 
     private static void addSumOfElfToList(List<String> listOfNumbers) {
