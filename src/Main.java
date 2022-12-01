@@ -16,12 +16,10 @@ public class Main {
         List<String> listOfNumbers = inputFileToList();
 
         addSumOfElfToList(listOfNumbers);
-        System.out.println(listOfElves);
         System.out.println("The elf with most calories have " + Collections.max(listOfElves));
-
         System.out.println("The top three elves have " + addTopThree() + " calories");
 
-        System.out.println(listOfElves);
+
 
     }
 
@@ -40,7 +38,6 @@ public class Main {
             if (!listOfNumber.equals(""))
                 tempNumber = Integer.parseInt(listOfNumber) + tempNumber;
             else {
-                System.out.println("New elf");
                 listOfElves.add(tempNumber);
                 tempNumber = 0;
             }
