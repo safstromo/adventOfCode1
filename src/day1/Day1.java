@@ -1,3 +1,5 @@
+package day1;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.LineIterator;
 
@@ -8,7 +10,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Main {
+public class Day1 {
 
     static List<Integer> listOfElves = new ArrayList<>();
 
@@ -18,7 +20,6 @@ public class Main {
         addSumOfElfToList(listOfNumbers);
         System.out.println("The elf with most calories have " + Collections.max(listOfElves));
         System.out.println("The top three elves have " + addTopThree() + " calories");
-
 
 
     }
@@ -45,7 +46,7 @@ public class Main {
     }
 
     static List<String> inputFileToList() {
-        File file = new File("src/input.txt");
+        File file = new File("src/day1/problemData.txt");
         List<String> templist = new ArrayList<>();
         LineIterator lineIterator = null;
         try {
