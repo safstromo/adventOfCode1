@@ -1,0 +1,52 @@
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.LineIterator;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Main {
+
+    static List<Integer> listOfElves = new ArrayList<>();
+
+    public static void main(String[] args) {
+        List<String> listOfNumbers = inputFileToList();
+
+        addSumOfElfToList(listOfNumbers);
+        System.out.println(listOfElves);
+        System.out.println(Collections.max(listOfElves));
+
+    }
+
+    private static void addSumOfElfToList(List<String> listOfNumbers) {
+        int tempNumber = 0;
+        for (String listOfNumber : listOfNumbers) {
+            if (!listOfNumber.equals(""))
+                tempNumber = Integer.parseInt(listOfNumber) + tempNumber;
+            else {
+                System.out.println("New elf");
+                listOfElves.add(tempNumber);
+                tempNumber = 0;
+            }
+        }
+    }
+
+    static List<String> inputFileToList() {
+        File file = new File("src/input.txt");
+        List<String> templist = new ArrayList<>();
+        LineIterator lineIterator = null;
+        try {
+            lineIterator = FileUtils.lineIterator(file);
+            while (lineIterator.hasNext()) {
+                String line = lineIterator.next();
+                templist.add(line);
+            }
+        } catch (IOException ignored) {
+        } finally {
+            LineIterator.closeQuietly(lineIterator);
+        }
+        return templist;
+    }
+}
