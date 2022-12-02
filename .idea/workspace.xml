@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="Moved filreader to tools">
+    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="day2 Part one done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day2/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/Day2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tools/fileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/fileReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <workItem from="1669886920127" duration="54000" />
       <workItem from="1669886981901" duration="10144000" />
       <workItem from="1669918383242" duration="647000" />
-      <workItem from="1669923132663" duration="6314000" />
+      <workItem from="1669923132663" duration="10143000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669896259524</created>
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669969730576</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="day2 Part one done">
+      <created>1669973260392</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669973260392</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +192,7 @@
     <MESSAGE value="Refractor" />
     <MESSAGE value="Fixed lineIterator with try-with-resources" />
     <MESSAGE value="Moved filreader to tools" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved filreader to tools" />
+    <MESSAGE value="day2 Part one done" />
+    <option name="LAST_COMMIT_MESSAGE" value="day2 Part one done" />
   </component>
 </project>
