@@ -21,7 +21,7 @@ public class fileReader {
         try (LineIterator lineIterator = FileUtils.lineIterator(file)) {
             while (lineIterator.hasNext()) {
                 String line = lineIterator.next();
-                templist.add(line);
+                templist.add(line.trim());
             }
         } catch (IOException ignored) {
         }
