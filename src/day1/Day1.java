@@ -1,10 +1,8 @@
 package day1;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.LineIterator;
+import tools.fileReader;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -13,9 +11,10 @@ import java.util.List;
 public class Day1 {
 
     static List<Integer> listOfElves = new ArrayList<>();
+    static File file = new File("src/day1/problemData.txt");
 
     public static void main(String[] args) {
-        List<String> listOfNumbers = inputFileToList();
+        List<String> listOfNumbers = fileReader.inputFileToList(file);
 
         addSumOfElfToList(listOfNumbers);
         System.out.println("The elf with most calories have " + Collections.max(listOfElves));
@@ -45,16 +44,4 @@ public class Day1 {
         }
     }
 
-    static List<String> inputFileToList() {
-        File file = new File("src/day1/problemData.txt");
-        List<String> templist = new ArrayList<>();
-        try (LineIterator lineIterator = FileUtils.lineIterator(file)) {
-            while (lineIterator.hasNext()) {
-                String line = lineIterator.next();
-                templist.add(line);
-            }
-        } catch (IOException ignored) {
-        }
-        return templist;
-    }
 }

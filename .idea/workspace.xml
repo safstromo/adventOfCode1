@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="Refractor">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="Fixed lineIterator with try-with-resources">
+      <change afterPath="$PROJECT_DIR$/src/day2/Day2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/problemData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tools/fileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day1/Day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/Day1.java" afterDir="false" />
     </list>
@@ -94,7 +96,7 @@
       <workItem from="1669886920127" duration="54000" />
       <workItem from="1669886981901" duration="10144000" />
       <workItem from="1669918383242" duration="647000" />
-      <workItem from="1669923132663" duration="1404000" />
+      <workItem from="1669923132663" duration="2842000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669896259524</created>
@@ -138,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669918961594</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed lineIterator with try-with-resources">
+      <created>1669968329695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669968329695</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed lineIterator with try-with-resources">
+      <created>1669968348849</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669968348849</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +165,7 @@
     <MESSAGE value="addToppThree" />
     <MESSAGE value="CleanUp" />
     <MESSAGE value="Refractor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refractor" />
+    <MESSAGE value="Fixed lineIterator with try-with-resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed lineIterator with try-with-resources" />
   </component>
 </project>
