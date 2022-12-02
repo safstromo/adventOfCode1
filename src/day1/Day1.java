@@ -48,16 +48,12 @@ public class Day1 {
     static List<String> inputFileToList() {
         File file = new File("src/day1/problemData.txt");
         List<String> templist = new ArrayList<>();
-        LineIterator lineIterator = null;
-        try {
-            lineIterator = FileUtils.lineIterator(file);
+        try (LineIterator lineIterator = FileUtils.lineIterator(file)) {
             while (lineIterator.hasNext()) {
                 String line = lineIterator.next();
                 templist.add(line);
             }
         } catch (IOException ignored) {
-        } finally {
-            LineIterator.closeQuietly(lineIterator);
         }
         return templist;
     }
