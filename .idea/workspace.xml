@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="day2 Part two done">
-      <change afterPath="$PROJECT_DIR$/src/day3/Day3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/problem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/problemData.txt" afterDir="false" />
+    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="day3 Part one done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/Day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/Day3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +124,7 @@
       <workItem from="1669923132663" duration="10632000" />
       <workItem from="1669977767319" duration="236000" />
       <workItem from="1670045938607" duration="3815000" />
-      <workItem from="1670059779139" duration="4995000" />
+      <workItem from="1670059779139" duration="9253000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669896259524</created>
@@ -205,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669977150462</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="day3 Part one done">
+      <created>1670076165827</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670076165827</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +225,7 @@
     <MESSAGE value="Moved filreader to tools" />
     <MESSAGE value="day2 Part one done" />
     <MESSAGE value="day2 Part two done" />
-    <option name="LAST_COMMIT_MESSAGE" value="day2 Part two done" />
+    <MESSAGE value="day3 Part one done" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3 Part one done" />
   </component>
 </project>
