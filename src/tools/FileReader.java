@@ -8,11 +8,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class fileReader {
+public class FileReader {
 
     public static List<String> inputFileToList(File file) {
         List<String> templist = new ArrayList<>();
-        fileReader.liteIterator(file,templist);
+        FileReader.liteIterator(file,templist);
         return templist;
     }
 

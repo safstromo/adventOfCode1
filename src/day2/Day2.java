@@ -1,6 +1,6 @@
 package day2;
 
-import tools.fileReader;
+import tools.FileReader;
 
 import java.io.File;
 
@@ -14,7 +14,7 @@ public class Day2 {
     static String rock = "X", paper = "Y", scissor = "Z";
 
     public static void main(String[] args) {
-        List<String> strategyGuide = fileReader.inputFileToList(file);
+        List<String> strategyGuide = FileReader.inputFileToList(file);
         System.out.println(strategyGuide);
 
         var myScore = 0;

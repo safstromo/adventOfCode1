@@ -1,6 +1,6 @@
 package day3;
 
-import tools.fileReader;
+import tools.FileReader;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ public class Day3 {
 
 
     public static void main(String[] args) {
-        List<String> rucksacks = fileReader.inputFileToList(file);
+        List<String> rucksacks = FileReader.inputFileToList(file);
         List<Character> duplicate = new ArrayList<>();
         List<String> compartment1 = new ArrayList<>();
         List<String> compartment2 = new ArrayList<>();

@@ -1,6 +1,6 @@
 package day1;
 
-import tools.fileReader;
+import tools.FileReader;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ public class Day1 {
     static File file = new File("src/day1/problemData.txt");
 
     public static void main(String[] args) {
-        List<String> listOfNumbers = fileReader.inputFileToList(file);
+        List<String> listOfNumbers = FileReader.inputFileToList(file);
 
         addSumOfElfToList(listOfNumbers);
         System.out.println("The elf with most calories have " + Collections.max(listOfElves));
