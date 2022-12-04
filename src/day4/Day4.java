@@ -11,7 +11,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Day4 {
-    static File file = new File("src/day4/problemdata.txt");
+    static File file = new File("src/day4/problemData.txt");
 
     public static void main(String[] args) {
         List<String> assignmentPairs = FileReader.inputFileToList(file);
