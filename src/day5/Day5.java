@@ -25,6 +25,7 @@ public class Day5 {
         } catch (Exception ignored) {
         }
 
+
         List<Deque<String>> list = new ArrayList<>();
         list.add(new ArrayDeque<>(Arrays.asList("Z", "J", "G")));
         list.add(new ArrayDeque<>(Arrays.asList("Q", "L", "R", "P", "W", "F", "V", "C")));

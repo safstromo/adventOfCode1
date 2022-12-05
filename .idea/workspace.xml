@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="day4">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day5/Day5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day5/problem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day5/problemData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day5/problemData2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventOfCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventOfCode.iml" afterDir="false" />
-    </list>
+    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="Cleanup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +153,7 @@
       <workItem from="1670059779139" duration="9300000" />
       <workItem from="1670080295672" duration="510000" />
       <workItem from="1670136844561" duration="7217000" />
-      <workItem from="1670225031193" duration="28845000" />
+      <workItem from="1670225031193" duration="29176000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669896259524</created>
@@ -269,7 +260,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670150599554</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="day5">
+      <created>1670267670706</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670267670706</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Cleanup">
+      <created>1670267731615</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670267731615</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Cleanup">
+      <created>1670267804454</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670267804454</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +299,9 @@
     <MESSAGE value="day3 Part one done" />
     <MESSAGE value="day3 Part two done" />
     <MESSAGE value="day4" />
-    <option name="LAST_COMMIT_MESSAGE" value="day4" />
+    <MESSAGE value="day5" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
