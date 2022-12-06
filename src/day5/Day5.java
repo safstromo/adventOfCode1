@@ -26,36 +26,36 @@ public class Day5 {
         }
 
 
-        List<Deque<String>> list = new ArrayList<>();
-        list.add(new ArrayDeque<>(Arrays.asList("Z", "J", "G")));
-        list.add(new ArrayDeque<>(Arrays.asList("Q", "L", "R", "P", "W", "F", "V", "C")));
-        list.add(new ArrayDeque<>(Arrays.asList("F", "P", "M", "C", "L", "G", "R")));
-        list.add(new ArrayDeque<>(Arrays.asList("L", "F", "B", "W", "P", "H", "M")));
-        list.add(new ArrayDeque<>(Arrays.asList("G", "C", "F", "S", "V", "Q")));
-        list.add(new ArrayDeque<>(Arrays.asList("W", "H", "J", "Z", "M", "Q", "T", "L")));
-        list.add(new ArrayDeque<>(Arrays.asList("H", "F", "S", "B", "V")));
-        list.add(new ArrayDeque<>(Arrays.asList("F", "J", "Z", "S")));
-        list.add(new ArrayDeque<>(Arrays.asList("M", "C", "D", "P", "F", "H", "B", "T")));
+        List<Deque<String>> crates1 = new ArrayList<>();
+        crates1.add(new ArrayDeque<>(Arrays.asList("Z", "J", "G")));
+        crates1.add(new ArrayDeque<>(Arrays.asList("Q", "L", "R", "P", "W", "F", "V", "C")));
+        crates1.add(new ArrayDeque<>(Arrays.asList("F", "P", "M", "C", "L", "G", "R")));
+        crates1.add(new ArrayDeque<>(Arrays.asList("L", "F", "B", "W", "P", "H", "M")));
+        crates1.add(new ArrayDeque<>(Arrays.asList("G", "C", "F", "S", "V", "Q")));
+        crates1.add(new ArrayDeque<>(Arrays.asList("W", "H", "J", "Z", "M", "Q", "T", "L")));
+        crates1.add(new ArrayDeque<>(Arrays.asList("H", "F", "S", "B", "V")));
+        crates1.add(new ArrayDeque<>(Arrays.asList("F", "J", "Z", "S")));
+        crates1.add(new ArrayDeque<>(Arrays.asList("M", "C", "D", "P", "F", "H", "B", "T")));
 
-        List<Deque<String>> list2 = new ArrayList<>();
-        list2.add(new ArrayDeque<>(Arrays.asList("Z", "J", "G")));
-        list2.add(new ArrayDeque<>(Arrays.asList("Q", "L", "R", "P", "W", "F", "V", "C")));
-        list2.add(new ArrayDeque<>(Arrays.asList("F", "P", "M", "C", "L", "G", "R")));
-        list2.add(new ArrayDeque<>(Arrays.asList("L", "F", "B", "W", "P", "H", "M")));
-        list2.add(new ArrayDeque<>(Arrays.asList("G", "C", "F", "S", "V", "Q")));
-        list2.add(new ArrayDeque<>(Arrays.asList("W", "H", "J", "Z", "M", "Q", "T", "L")));
-        list2.add(new ArrayDeque<>(Arrays.asList("H", "F", "S", "B", "V")));
-        list2.add(new ArrayDeque<>(Arrays.asList("F", "J", "Z", "S")));
-        list2.add(new ArrayDeque<>(Arrays.asList("M", "C", "D", "P", "F", "H", "B", "T")));
+        List<Deque<String>> crates2 = new ArrayList<>();
+        crates2.add(new ArrayDeque<>(Arrays.asList("Z", "J", "G")));
+        crates2.add(new ArrayDeque<>(Arrays.asList("Q", "L", "R", "P", "W", "F", "V", "C")));
+        crates2.add(new ArrayDeque<>(Arrays.asList("F", "P", "M", "C", "L", "G", "R")));
+        crates2.add(new ArrayDeque<>(Arrays.asList("L", "F", "B", "W", "P", "H", "M")));
+        crates2.add(new ArrayDeque<>(Arrays.asList("G", "C", "F", "S", "V", "Q")));
+        crates2.add(new ArrayDeque<>(Arrays.asList("W", "H", "J", "Z", "M", "Q", "T", "L")));
+        crates2.add(new ArrayDeque<>(Arrays.asList("H", "F", "S", "B", "V")));
+        crates2.add(new ArrayDeque<>(Arrays.asList("F", "J", "Z", "S")));
+        crates2.add(new ArrayDeque<>(Arrays.asList("M", "C", "D", "P", "F", "H", "B", "T")));
 
         List<String> temp = new ArrayList<>();
         Deque<String> temp2 = new ArrayDeque<>();
 
 
-        moveCratesPart1(moves, list, temp);
-        moveCratesPart2(moves, list2, temp2);
-        System.out.println("Part 1 " + list);
-        System.out.println("Part 2 " + list2);
+        moveCratesPart1(moves, crates1, temp);
+        moveCratesPart2(moves, crates2, temp2);
+        System.out.println("Part 1 " + crates1);
+        System.out.println("Part 2 " + crates2);
     }
 
     private static void moveCratesPart1(List<Command> commands, List<Deque<String>> list, List<String> temp) {
