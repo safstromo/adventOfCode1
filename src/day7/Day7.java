@@ -13,14 +13,25 @@ public class Day7 {
 	public static void main(String[] args) {
 
 		List<InputFile> files = new ArrayList<>();
+		List<InputDir> directories = new ArrayList<>();
 		try (BufferedReader reader = Files.newBufferedReader(Paths.get("src/day7/problemData.txt"))) {
 			files = reader.lines().map(InputFile::getFile).collect(Collectors.toList());
 			files.removeIf(Objects::isNull);
+
+		} catch (Exception e) {
+			e.getMessage();
+		}
+		try (BufferedReader reader = Files.newBufferedReader(Paths.get("src/day7/problemData.txt"))) {
+			directories = reader.lines().map(InputDir::getFile).collect(Collectors.toList());
+			directories.removeIf(Objects::isNull);
+
 		} catch (Exception e) {
 			e.getMessage();
 		}
 
 		System.out.println(files);
+		System.out.println(directories);
+
 
 		String test = "$ cd /\n" +
 				"$ ls\n" +
@@ -49,15 +60,19 @@ public class Day7 {
 		List<InputFile> test2 = test.lines().map(InputFile::getFile).collect(Collectors.toList());
 		test2.removeIf(Objects::isNull);
 		System.out.println(test2);
+
+		List<InputDir> test3 = test.lines().map(InputDir::getFile).collect(Collectors.toList());
+		test3.removeIf(Objects::isNull);
+		System.out.println(test3);
+
 	}
 
-	class InputDir {
+	static class InputDir {
 		String name;
 		static List<InputFile> files = new ArrayList<>();
-		static List<InputDir> dir = new ArrayList<>();
-		static Pattern pattern = Pattern.compile("(\\d+)\\s(\\S+)");
+		static Pattern pattern = Pattern.compile("dir\\s(\\S+)");
 
-		InputDir getFile(String line) {
+		static InputDir getFile(String line) {
 			var matcher = pattern.matcher(line);
 			if (matcher.matches())
 				return new InputDir(matcher.group(1));
@@ -68,28 +83,32 @@ public class Day7 {
 			this.name = name;
 		}
 
-		public InputDir(String name, InputFile files, List<InputDir> dir) {
-			this.name = name;
-		}
-
-		public static List<InputDir> getDir() {
-			return dir;
-		}
-
 		public static List<InputFile> getFiles() {
 			return files;
+		}
+
+		public static void addFiles(InputFile file){
+			files.add(file);
 		}
 
 		private static void printSize() {
 			int dirSize = 0;
 
-			for (InputFile i : files) {
-				dirSize = dirSize + i.size();
+			for (InputFile file : files) {
+				dirSize = dirSize + file.size();
 			}
-
 		}
 
+		public String getName() {
+			return name;
+		}
 
+		@Override
+		public String toString() {
+			return "InputDir{" +
+					"name='" + name + '\'' +
+					'}';
+		}
 	}
 
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="day7 not done yet">
+    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="inputdir">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day7/Day7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/Day7.java" afterDir="false" />
     </list>
@@ -162,7 +162,8 @@
       <workItem from="1670320591393" duration="62000" />
       <workItem from="1670322552160" duration="88000" />
       <workItem from="1670393739351" duration="4956000" />
-      <workItem from="1670415297801" duration="1548000" />
+      <workItem from="1670415297801" duration="2554000" />
+      <workItem from="1670426676659" duration="879000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669896259524</created>
@@ -318,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670400138934</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="inputdir">
+      <created>1670416856269</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670416856269</updated>
+    </task>
+    <task id="LOCAL-00024" summary="inputdir">
+      <created>1670417063040</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670417063040</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +356,8 @@
     <MESSAGE value="Day6 part 1" />
     <MESSAGE value="Day6 part 2" />
     <MESSAGE value="day7 not done yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="day7 not done yet" />
+    <MESSAGE value="inputdir" />
+    <option name="LAST_COMMIT_MESSAGE" value="inputdir" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
