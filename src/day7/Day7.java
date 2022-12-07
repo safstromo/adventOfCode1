@@ -55,6 +55,18 @@ public class Day7 {
 		String name;
 		static List<InputFile> files = new ArrayList<>();
 		static List<InputDir> dir = new ArrayList<>();
+		static Pattern pattern = Pattern.compile("(\\d+)\\s(\\S+)");
+
+		InputDir getFile(String line) {
+			var matcher = pattern.matcher(line);
+			if (matcher.matches())
+				return new InputDir(matcher.group(1));
+			return null;
+		}
+
+		public InputDir(String name) {
+			this.name = name;
+		}
 
 		public InputDir(String name, InputFile files, List<InputDir> dir) {
 			this.name = name;
