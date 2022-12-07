@@ -51,17 +51,49 @@ public class Day7 {
 		System.out.println(test2);
 	}
 
-	record InputFile(int size, String name) {
+	class InputDir {
+		String name;
+		static List<InputFile> files = new ArrayList<>();
+		static List<InputDir> dir = new ArrayList<>();
 
-		static Pattern pattern = Pattern.compile("(\\d+)\\s(\\S+)");
-
-		static InputFile getFile(String line) {
-			var matcher = pattern.matcher(line);
-			if (matcher.matches())
-				return new InputFile(Integer.parseInt(matcher.group(1)),
-						matcher.group(2));
-			return null;
+		public InputDir(String name, InputFile files, List<InputDir> dir) {
+			this.name = name;
 		}
 
+		public static List<InputDir> getDir() {
+			return dir;
+		}
+
+		public static List<InputFile> getFiles() {
+			return files;
+		}
+
+		private static void printSize() {
+			int dirSize = 0;
+
+			for (InputFile i : files) {
+				dirSize = dirSize + i.size();
+			}
+
+		}
+
+
 	}
+
 }
+
+
+record InputFile(int size, String name) {
+
+	static Pattern pattern = Pattern.compile("(\\d+)\\s(\\S+)");
+
+	static InputFile getFile(String line) {
+		var matcher = pattern.matcher(line);
+		if (matcher.matches())
+			return new InputFile(Integer.parseInt(matcher.group(1)),
+					matcher.group(2));
+		return null;
+	}
+
+}
+
