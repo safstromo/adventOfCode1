@@ -10,19 +10,24 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class Day7 {
+
+	static Pattern fileName = Pattern.compile("\\b\\w+\\.\\w+");
+	static Pattern dirName = Pattern.compile("dir\\s(\\S+)");
+
+
 	public static void main(String[] args) {
 
-		List<InputFile> files = new ArrayList<>();
-		List<InputDir> directories = new ArrayList<>();
+		List<File> files = new ArrayList<>();
+		List<Directory> directories = new ArrayList<>();
 		try (BufferedReader reader = Files.newBufferedReader(Paths.get("src/day7/problemData.txt"))) {
-			files = reader.lines().map(InputFile::getFile).collect(Collectors.toList());
+			files = reader.lines().map(File::getFile).collect(Collectors.toList());
 			files.removeIf(Objects::isNull);
 
 		} catch (Exception e) {
 			e.getMessage();
 		}
 		try (BufferedReader reader = Files.newBufferedReader(Paths.get("src/day7/problemData.txt"))) {
-			directories = reader.lines().map(InputDir::getFile).collect(Collectors.toList());
+			directories = reader.lines().map(Directory::getFile).collect(Collectors.toList());
 			directories.removeIf(Objects::isNull);
 
 		} catch (Exception e) {
@@ -57,44 +62,44 @@ public class Day7 {
 				"5626152 d.ext\n" +
 				"7214296 k";
 
-		List<InputFile> test2 = test.lines().map(InputFile::getFile).collect(Collectors.toList());
+		var test2 = test.lines().map(File::getFile).collect(Collectors.toList());
 		test2.removeIf(Objects::isNull);
 		System.out.println(test2);
 
-		List<InputDir> test3 = test.lines().map(InputDir::getFile).collect(Collectors.toList());
+		var test3 = test.lines().map(Directory::getFile).collect(Collectors.toList());
 		test3.removeIf(Objects::isNull);
 		System.out.println(test3);
 
 	}
 
-	static class InputDir {
+	static class Directory {
 		String name;
-		static List<InputFile> files = new ArrayList<>();
+		static List<File> files = new ArrayList<>();
 		static Pattern pattern = Pattern.compile("dir\\s(\\S+)");
 
-		static InputDir getFile(String line) {
+		static Directory getFile(String line) {
 			var matcher = pattern.matcher(line);
 			if (matcher.matches())
-				return new InputDir(matcher.group(1));
+				return new Directory(matcher.group(1));
 			return null;
 		}
 
-		public InputDir(String name) {
+		public Directory(String name) {
 			this.name = name;
 		}
 
-		public static List<InputFile> getFiles() {
+		public static List<File> getFiles() {
 			return files;
 		}
 
-		public static void addFiles(InputFile file){
+		public static void addFiles(File file){
 			files.add(file);
 		}
 
 		private static void printSize() {
 			int dirSize = 0;
 
-			for (InputFile file : files) {
+			for (File file : files) {
 				dirSize = dirSize + file.size();
 			}
 		}
@@ -114,14 +119,14 @@ public class Day7 {
 }
 
 
-record InputFile(int size, String name) {
+record File(int size, String name) {
 
 	static Pattern pattern = Pattern.compile("(\\d+)\\s(\\S+)");
 
-	static InputFile getFile(String line) {
+	static File getFile(String line) {
 		var matcher = pattern.matcher(line);
 		if (matcher.matches())
-			return new InputFile(Integer.parseInt(matcher.group(1)),
+			return new File(Integer.parseInt(matcher.group(1)),
 					matcher.group(2));
 		return null;
 	}
