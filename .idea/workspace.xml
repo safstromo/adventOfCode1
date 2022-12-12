@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="InputDir">
-      <change afterPath="$PROJECT_DIR$/src/day11/Day11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/problem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/problemData.txt" afterDir="false" />
+    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="Day11 part 1 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11/Day11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/Day11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +167,7 @@
       <workItem from="1670393739351" duration="4956000" />
       <workItem from="1670415297801" duration="2554000" />
       <workItem from="1670426676659" duration="2207000" />
-      <workItem from="1670835221041" duration="4723000" />
+      <workItem from="1670835221041" duration="9834000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669896259524</created>
@@ -346,11 +344,29 @@
       <option name="project" value="LOCAL" />
       <updated>1670427689985</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Day11 part 1 done">
+      <created>1670840102567</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1670840102567</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -382,7 +398,8 @@
     <MESSAGE value="day7 not done yet" />
     <MESSAGE value="inputdir" />
     <MESSAGE value="InputDir" />
-    <option name="LAST_COMMIT_MESSAGE" value="InputDir" />
+    <MESSAGE value="Day11 part 1 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day11 part 1 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
