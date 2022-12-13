@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="Day11 part 1 done">
+    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="InputDir">
+      <change afterPath="$PROJECT_DIR$/src/day10/Day10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/problemData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8/Day8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8/problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8/problemData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/Day9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/problem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/problemData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11/Day11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/Day11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11/problem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/problem.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,56 +34,56 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
-  </component>
-  <component name="MacroExpansionManager">
-    <option name="directoryName" value="ujodqn5k" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IJ4yqY81Rjedh65HAs0Exw4ALQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "extract.method.default.visibility": "private",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day11">
-    <configuration name="Day11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day11.Day11" />
+  <component name="RunManager" selected="Application.Day10">
+    <configuration name="Day10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.Day10" />
       <module name="adventOfCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,7 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day11" />
+        <item itemvalue="Application.Day10" />
         <item itemvalue="Application.Day7" />
         <item itemvalue="Application.Day6" />
         <item itemvalue="Application.Day5" />
@@ -167,7 +178,7 @@
       <workItem from="1670393739351" duration="4956000" />
       <workItem from="1670415297801" duration="2554000" />
       <workItem from="1670426676659" duration="2207000" />
-      <workItem from="1670835221041" duration="9834000" />
+      <workItem from="1670935916490" duration="2747000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669896259524</created>
@@ -344,40 +355,11 @@
       <option name="project" value="LOCAL" />
       <updated>1670427689985</updated>
     </task>
-    <task id="LOCAL-00026" summary="Day11 part 1 done">
-      <created>1670840102567</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1670840102567</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
-      <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
-        <option value="Space.CommitStatus" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
@@ -398,8 +380,7 @@
     <MESSAGE value="day7 not done yet" />
     <MESSAGE value="inputdir" />
     <MESSAGE value="InputDir" />
-    <MESSAGE value="Day11 part 1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day11 part 1 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="InputDir" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
