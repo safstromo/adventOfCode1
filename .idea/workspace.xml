@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="InputDir">
-      <change afterPath="$PROJECT_DIR$/src/day10/Day10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/problem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/problemData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day8/Day8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day8/problem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day8/problemData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/Day9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/problem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day9/problemData.txt" afterDir="false" />
+    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="day10 part 1 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11/problem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/problem.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/Day10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/Day10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/problem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/problem.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +168,7 @@
       <workItem from="1670393739351" duration="4956000" />
       <workItem from="1670415297801" duration="2554000" />
       <workItem from="1670426676659" duration="2207000" />
-      <workItem from="1670935916490" duration="2747000" />
+      <workItem from="1670935916490" duration="5277000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669896259524</created>
@@ -355,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670427689985</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="day10 part 1 done">
+      <created>1670938733194</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1670938733194</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +377,8 @@
     <MESSAGE value="day7 not done yet" />
     <MESSAGE value="inputdir" />
     <MESSAGE value="InputDir" />
-    <option name="LAST_COMMIT_MESSAGE" value="InputDir" />
+    <MESSAGE value="day10 part 1 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="day10 part 1 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

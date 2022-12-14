@@ -28,14 +28,42 @@ public class Day10 {
 				for (int j = 0; j < 2; j++) {
 					cycle++;
 					addCycle(signal, x, cycle);
+
 				}
+				printNewRow(cycle);
+				printCRT(x, cycle);
 				x = x + Integer.parseInt(matcher.group(2));
 
 			} else {
 				cycle++;
+				printNewRow(cycle);
+				printCRT(x, cycle);
 				addCycle(signal, x, cycle);
+
 			}
 		}
+
+		part1(signal);
+
+
+	}
+
+	private static void printNewRow(int cycle) {
+		if (cycle == 40 || cycle == 80 || cycle == 120 || cycle == 160 || cycle == 200)
+			System.out.println();
+	}
+
+	private static void printCRT(int x, int cycle) {
+		if (firstRow(x, cycle, 0) || firstRow(x, cycle, 40) || firstRow(x, cycle, 80) || firstRow(x, cycle, 120) || firstRow(x, cycle, 160) || firstRow(x, cycle, 200))
+			System.out.print("#");
+		System.out.print(".");
+	}
+
+	private static boolean firstRow(int x, int cycle, int row) {
+		return cycle == x + row - 1 || cycle == x + row || cycle == x + row + 1;
+	}
+
+	private static void part1(List<Integer> signal) {
 		int sum = 0;
 		sum = signal.get(0) * 20;
 		sum = sum + (signal.get(1) * 60);
@@ -43,11 +71,7 @@ public class Day10 {
 		sum = sum + (signal.get(3) * 140);
 		sum = sum + (signal.get(4) * 180);
 		sum = sum + (signal.get(5) * 220);
-		System.out.println(sum);
-		System.out.println(signal);
-		System.out.println(input);
-
-
+		System.out.println("\nSum of signals = " + sum);
 	}
 
 	private static void addCycle(List<Integer> temp, int x, int cycle) {
