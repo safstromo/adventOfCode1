@@ -55,12 +55,12 @@ public class Day10 {
 
 	private static void printCRT(int x, int cycle) {
 		if (row(x, cycle, 0) || row(x, cycle, 40) || row(x, cycle, 80) || row(x, cycle, 120) || row(x, cycle, 160) || row(x, cycle, 200))
-			System.out.print("#");
-		else System.out.print(".");
+			System.out.print("# ");
+		else System.out.print("  ");
 	}
 
 	private static boolean row(int x, int cycle, int row) {
-		return cycle == x + row - 1 || cycle == x + row || cycle == x + row + 1;
+		return cycle == x + row || cycle == x + row + 1||cycle == x + row + 2 ;
 	}
 
 	private static void part1(List<Integer> signal) {
