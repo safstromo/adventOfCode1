@@ -54,12 +54,12 @@ public class Day10 {
 	}
 
 	private static void printCRT(int x, int cycle) {
-		if (firstRow(x, cycle, 0) || firstRow(x, cycle, 40) || firstRow(x, cycle, 80) || firstRow(x, cycle, 120) || firstRow(x, cycle, 160) || firstRow(x, cycle, 200))
+		if (row(x, cycle, 0) || row(x, cycle, 40) || row(x, cycle, 80) || row(x, cycle, 120) || row(x, cycle, 160) || row(x, cycle, 200))
 			System.out.print("#");
 		System.out.print(".");
 	}
 
-	private static boolean firstRow(int x, int cycle, int row) {
+	private static boolean row(int x, int cycle, int row) {
 		return cycle == x + row - 1 || cycle == x + row || cycle == x + row + 1;
 	}
 
