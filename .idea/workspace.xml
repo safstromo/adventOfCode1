@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="day10 part 1 done">
+    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="day10 part 2 not done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day10/Day10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/Day10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/problem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/problem.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +167,7 @@
       <workItem from="1670393739351" duration="4956000" />
       <workItem from="1670415297801" duration="2554000" />
       <workItem from="1670426676659" duration="2207000" />
-      <workItem from="1670935916490" duration="5277000" />
+      <workItem from="1670935916490" duration="6454000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669896259524</created>
@@ -352,7 +351,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670938733194</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="day10 part 2 not done">
+      <created>1670999337332</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670999337332</updated>
+    </task>
+    <task id="LOCAL-00028" summary="day10 part 2 not done">
+      <created>1670999446373</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1670999446373</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +391,8 @@
     <MESSAGE value="inputdir" />
     <MESSAGE value="InputDir" />
     <MESSAGE value="day10 part 1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="day10 part 1 done" />
+    <MESSAGE value="day10 part 2 not done" />
+    <option name="LAST_COMMIT_MESSAGE" value="day10 part 2 not done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -387,6 +401,16 @@
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day10/Day10.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day10/Day10.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

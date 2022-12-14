@@ -27,11 +27,11 @@ public class Day10 {
 			if (matcher.matches()) {
 				for (int j = 0; j < 2; j++) {
 					cycle++;
+					printNewRow(cycle);
+					printCRT(x, cycle);
 					addCycle(signal, x, cycle);
 
 				}
-				printNewRow(cycle);
-				printCRT(x, cycle);
 				x = x + Integer.parseInt(matcher.group(2));
 
 			} else {
@@ -49,14 +49,14 @@ public class Day10 {
 	}
 
 	private static void printNewRow(int cycle) {
-		if (cycle == 40 || cycle == 80 || cycle == 120 || cycle == 160 || cycle == 200)
+		if (cycle % 40 == 0)
 			System.out.println();
 	}
 
 	private static void printCRT(int x, int cycle) {
 		if (row(x, cycle, 0) || row(x, cycle, 40) || row(x, cycle, 80) || row(x, cycle, 120) || row(x, cycle, 160) || row(x, cycle, 200))
 			System.out.print("#");
-		System.out.print(".");
+		else System.out.print(".");
 	}
 
 	private static boolean row(int x, int cycle, int row) {
