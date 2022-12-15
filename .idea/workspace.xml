@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="cleanup">
+    <list default="true" id="5de10dce-6b5d-45dc-a134-0c521f950622" name="Changes" comment="day10 part 2 done">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/Day10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/Day10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/problemData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/problemData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11/problemData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day2/problemData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/problemData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day4/problemData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day5/problemData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day5/problemData2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day6/ProblemData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day7/problemData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day8/problemData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day9/problemData.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +75,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/day1" />
+      <recent name="$PROJECT_DIR$/src/problemData/problemDataDay11" />
+      <recent name="$PROJECT_DIR$/src/problemData/problemDataDay10" />
+      <recent name="$PROJECT_DIR$/src/problemData/problemDataDay9" />
+      <recent name="$PROJECT_DIR$/src/problemData/problemDataDay8" />
+      <recent name="$PROJECT_DIR$/src/problemData/problemDataDay7" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Day10">
@@ -167,7 +183,8 @@
       <workItem from="1670393739351" duration="4956000" />
       <workItem from="1670415297801" duration="2554000" />
       <workItem from="1670426676659" duration="2207000" />
-      <workItem from="1670935916490" duration="7922000" />
+      <workItem from="1670935916490" duration="9297000" />
+      <workItem from="1671097962313" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669896259524</created>
@@ -372,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671002095006</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="day10 part 2 done">
+      <created>1671003432860</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1671003432860</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +424,8 @@
     <MESSAGE value="day10 part 1 done" />
     <MESSAGE value="day10 part 2 not done" />
     <MESSAGE value="cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
+    <MESSAGE value="day10 part 2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="day10 part 2 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -409,16 +434,6 @@
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day10/Day10.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day10/Day10.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
