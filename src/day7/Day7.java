@@ -106,7 +106,7 @@ public class Day7 {
 
 		public String getName() {
 			return name;
-		}
+		}//
 
 		@Override
 		public String toString() {
